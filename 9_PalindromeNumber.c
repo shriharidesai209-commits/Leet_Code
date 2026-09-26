@@ -16,3 +16,22 @@ bool isPalindrome(int x) {
     }
     return (original == reversed);
 }
+/*
+Test Case 1 - Typical Case
+
+Input:
+s = "madam"
+
+Expected Output:
+true
+*/
+
+/*
+Test Case 2 - Edge Case
+
+Input:
+s = "a"
+
+Expected Output:
+true
+*/
