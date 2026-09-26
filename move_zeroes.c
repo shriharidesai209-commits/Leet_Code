@@ -9,3 +9,22 @@ void moveZeroes(int* nums, int numsSize) {
         nums[i] = 0;
     }
 }
+/*
+Test Case 1 - Typical Case
+
+Input:
+nums = [0, 1, 0, 3, 12]
+
+Expected Output:
+[1, 3, 12, 0, 0]
+*/
+
+/*
+Test Case 2 - Edge Case
+
+Input:
+nums = [0, 0, 0]
+
+Expected Output:
+[0, 0, 0]
+*/
