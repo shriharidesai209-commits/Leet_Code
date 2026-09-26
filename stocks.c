@@ -18,15 +18,22 @@ int maxProfit(int* prices, int pricesSize) {
    }
    return maxProfit;
 }
-int main()
-{
-    int n;
-    printf("Enter the size: ");
-    scanf("%d", &n);
-    int *arr=(int*)malloc(n*sizeof(int));
-    printf("Enter the elements: ");
-    for(int i=0;i<n;i++)
-    scanf("%d", &arr[i]);
-    int profit=maxProfit(arr, n);
-    printf("%d", profit);
-}
+/*
+Test Case 1 - Typical Case
+
+Input:
+prices = [7, 1, 5, 3, 6, 4]
+
+Expected Output:
+5
+*/
+
+/*
+Test Case 2 - Edge Case
+
+Input:
+prices = [7, 6, 4, 3, 1]
+
+Expected Output:
+0
+*/
