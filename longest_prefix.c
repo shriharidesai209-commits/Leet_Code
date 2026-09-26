@@ -20,11 +20,22 @@ char* longestCommonPrefix(char** strs, int strsSize) {
     }
     return strs[0];
 }
-{
-    int n;
-    char *str[]={"flower", "flow", "flight"};
-    n=sizeof(str)/sizeof(str[0]);
-    char *out=longestCommonPrefix(&str, n);
-    printf("%s", *out);
-    return 0;
-}
+/*
+Test Case 1 - Typical Case
+
+Input:
+strs = ["flower", "flow", "flight"]
+
+Expected Output:
+"fl"
+*/
+
+/*
+Test Case 2 - Edge Case
+
+Input:
+strs = ["dog", "racecar", "car"]
+
+Expected Output:
+""
+*/
