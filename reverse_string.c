@@ -26,3 +26,22 @@ int main()
     printf("%s", s);
     return 0;
 }
+/*
+Test Case 1 - Typical Case
+
+Input:
+s = "hello"
+
+Expected Output:
+"olleh"
+*/
+
+/*
+Test Case 2 - Edge Case
+
+Input:
+s = "a"
+
+Expected Output:
+"a"
+*/
