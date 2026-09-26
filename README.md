@@ -1,8 +1,8 @@
 # LeetCode Solutions Portfolio
 
 - **Name:** Shrihari H Desai
-- **Roll Number / ID:** B25CS0311
-- **Course:** Portfolio Building (3rd Semester, CSE/CSIT/ISE)
+- **Roll Number / ID:** R25EJ140
+- **Course:** Portfolio Building (3rd Semester, CSIT)
 - **Description:** Personal LeetCode practice log — part of B25GE0101 portfolio.
 
 ---
